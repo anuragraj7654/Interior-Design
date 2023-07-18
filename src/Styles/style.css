@@ -1,0 +1,550 @@
+/* ------------------------------------navber---------------------------------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 63px;
+  border: 1px solid black;
+  background-color: rgb(0, 0, 0);
+}
+.navbar-dropdown {
+  display: none;
+  color: white;
+  text-align: left;
+}
+.logo-image2:hover .navbar-dropdown {
+  color: white;
+  text-align: left;
+}
+.dropdown-list {
+  padding: 5px 19px;
+  margin: 0;
+  border-bottom: 2.5px solid grey;
+  font-size: 18px;
+  font-weight: 470;
+}
+.logo-image a img {
+  width: 50px;
+  padding: 7px;
+}
+.logo-image2 a img {
+  width: 50px;
+  padding: 11px 15px;
+}
+.logo-image {
+  width: 10%;
+}
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+.navbar-list li {
+  padding-top: 3px;
+}
+.links {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.links:hover {
+  color: rgb(195, 195, 195)!important;
+  text-decoration: none;
+}
+.navbar-list li {
+  text-decoration: none;
+  color: rgb(221, 217, 217);
+  margin: 0px 20px;
+}
+.navbar-list li :hover {
+  color: #fff;
+}
+button {
+  border: none;
+  background-color: black;
+  padding: 0;
+}
+@media screen and (max-width: 610px) {
+  .drop-none {
+    display: none;
+  }
+  .navbar-dropdown {
+    display: block;
+    color: white;
+    text-align: left;
+  }
+}
+
+/* -----------------------------------------------about----------------------------------------- */
+.about {
+  background-color: black;
+  margin-bottom: 40px !important;
+}
+.about-heading {
+  color: #fff;
+  margin: 100px 0px 50px 30px;
+  text-align: left;
+  font-size: 50px;
+  width: 70%;
+  /* background-color: #fff; */
+}
+.about-content h2 {
+    text-align: left;
+  font-size: 110px;
+  color: #343434;
+  padding: 45px 20px 10px 20px;
+  border-top: 2px solid #343434;
+  margin-bottom: 20px;
+}
+.about-content h4,
+p {
+  color: #fff;
+  text-align: left;
+}
+.about-content h4 {
+  font-size: 25px;
+}
+.about-content p {
+  font-size: 18px;
+}
+.about-img2 {
+  width: 100%;
+  height: 90vh;
+}
+.about-img1 {
+  width: 100%;
+  height: 105vh;
+}
+.img2-footer {
+  color: #fff;
+  width: 100%;
+  height: 15vh;
+  text-align: left;
+}
+.image_abt{
+  padding: 15px 7.5px;
+}
+@media screen and (max-width: 610px) {
+  .about-heading {
+    margin: 0;
+    padding: 80px 30px;
+    font-size: 35px;
+    width: 90%;
+  }
+}
+
+/* homepage_home */
+.bg-image {
+  width: 100%;
+  height: 95vh !important;
+}
+.Homepage {
+  position: relative;
+  text-align: center;
+}
+.Homedata {
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  top: 30%;
+}
+.homepage-head {
+  font-size: 50px;
+  color: #fff;
+}
+/* -----------------------------------------------Services-------------------------------------------- */
+/* -------------------------------------------------Fourth------------------------------------ */
+.fourth {
+  border-top: 1.5px solid grey;
+  border-bottom: 4.5px solid #181818;
+  padding-top: 15vh;
+}
+.image-home {
+  width: 100%;
+  height: 90vh;
+}
+.text-color {
+  color: #fff;
+  padding: 3rem;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
+  width: 30%;
+}
+.text-color2 {
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  color: #fff;
+  padding: 2.7rem 0;
+  font-size: 23px;
+  border-right: 4.5px solid #181818;
+  width: 70%;
+}
+.hover {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.hover:hover {
+  background-color: #161616;
+}
+/* ---------------------------------------------------------AboutUs------------------------------------------ */
+.AboutUs {
+  margin-top: 20vh;
+  color: white;
+}
+.about-text {
+  padding-top: 15px;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.data-about {
+  font-size: 1rem;
+  padding: 5px 8px;
+  margin: 5px;
+  text-align: left;
+}
+.data-about h4{
+  margin: 5px 0px -14px 0px;
+}
+
+/* ------------------------------------------------PicGallery----------------------------------------- */
+.PicGallery {
+  color: #fff;
+  margin-top: 120px;
+}
+.image-class {
+  width: 100%;
+  height: 70vh;
+}
+.div-class {
+  margin: 10px;
+  text-align: left;
+  border-bottom: 2px solid grey;
+}
+/* -------------------------------------------------------OurTeam----------------------------------------- */
+.person-class {
+  width: 100%;
+  height: 40vh;
+}
+.about-text {
+  font-size: 60px;
+}
+/* -----------------------------------------------------ContactUs------------------------------------ */
+.ContactUs {
+  margin-top: 80px;
+  color: #fff;
+}
+.bg-image1 {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../Images/abg.jpg");
+  background-size: cover;
+  
+}
+.home-hover:hover{
+  width:100%;
+  height: 100%;
+  background:rgba(0,0,0,0.4);
+}
+.bg-image2 {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../Images/cbg.jpg");
+  background-size:cover; 
+}
+.center {
+  padding: 50px 0px;
+  font-size: 3.6rem;
+  align-items: center;
+
+}
+.png-image {
+  width: 99%;
+  border: 2px solid rgb(134, 133, 133);
+}
+/* ----------------------------------------------------Footer------------------------------------------ */
+.Footer {
+  margin-top: 70px;
+  color: white;
+  text-align: left;
+}
+.first-half {
+  margin: 40px 50px;
+}
+.footerlast {
+  position: relative;
+  background-color: #161616;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+}
+.lastone {
+  position: absolute;
+  padding-left: 60px;
+}
+.second-ele h6{
+  margin: 8px 0;
+}
+/* ------------------------------------------------About_section1------------------------------------- */
+.About_section1 {
+  margin-top: 120px;
+  color: white;
+}
+.about-text1 {
+  text-align: left;
+  margin: 40px 50px 0px 50px !important;
+  font-size: 38px !important;
+}
+.aboutpage-content {
+  margin: 25px 10px;
+  text-align: left;
+}
+.para {
+  margin: 20px 70px;
+}
+/* -------------------------------------------------About_section2-------------------------------------- */
+/* ------------------------------------------------About_section3----------------------------------------- */
+.About_section3 {
+  color: white;
+  margin-top: 150px;
+  text-align: left;
+}
+.abt3image {
+  margin: 20px 40px;
+}
+.abt3img {
+  width: 100%;
+}
+.ab3 {
+  margin: 37px 50px;
+}
+.ab3 p {
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+.ab3 h2 {
+  margin-top: 0px;
+  padding-bottom: 0;
+  font-size: 40px;
+}
+.ab3 h2:hover {
+  color: rgb(177, 179, 181);
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+/* ---------------------------------------------About_section4---------------------------------------- */
+.About_section4 {
+  color: #fff;
+  margin-top: 110px;
+  text-align: center;
+}
+.abt4 {
+  margin: 80px 0px;
+  font-size: 25px;
+  justify-content: center;
+}
+.imageabt4 {
+  margin-top: 110px;
+}
+
+/* ---------------------------------------------AboutGallery-------------------------------------------- */
+.AboutGallery {
+  margin-top: 120px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 40px;
+}
+.abtgallery {
+  margin: 15px;
+}
+
+/* -----------------------------------------------ContactPage------------------------------------------- */
+.ContactPage {
+  margin-top: 80px;
+  color: white;
+  text-align: left;
+}
+.ContactPage h1 {
+  margin-left: 50px;
+}
+.ContactPage h6 {
+  margin: 40px 50px 0px 50px;
+}
+.ContactPage h2 {
+  margin: 40px 50px 0px 50px;
+}
+.ContactPage h5 {
+  margin: 40px 50px 0px 50px;
+}
+.ContactPage h3 {
+  margin: 0px 50px 0px 50px;
+}
+.ContactPage button {
+  padding: 15px 35px;
+  border: 2px solid grey;
+  color: white;
+  margin: 0 60px;
+}
+.mapouter {
+  margin-top: 100px;
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 70vh;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 70vh;
+}
+.gmap_iframe {
+  width: 100% !important;
+  height: 70vh !important;
+}
+.inputs {
+  font-size: 25px;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-width: 0;
+  border-bottom: 1.5 px solid grey;
+}
+.inputdiv {
+  margin: 7px 50px;
+  border-bottom: 1.5px solid grey;
+}
+
+/* ----------------------------------------------design------------------------------------------- */
+
+.design-heading {
+  color: #fff !important;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  border-top: 1.5px solid grey;
+  /* border-bottom: 1.5px solid grey; */
+  font-size: 58px;
+  transition: all ease 0.6s;
+  margin: 0;
+}
+.design-heading:hover {
+  background-color: rgb(33, 33, 33);
+    cursor: pointer;
+  padding-bottom: 20px;
+}
+.servicess {
+  align-items: center;
+  margin-top: 110px;
+  color: #fff;
+  text-align: center;
+}
+.service_quote{
+  font-style: italic;
+  margin: 0px 190px;
+}
+
+/* ----------------------------------Established-------------------------------------- */
+.about-content1{
+  padding: 0px 25px;
+  text-align: left;
+  margin-bottom: 90px;
+}
+.about-content1 h2 {
+font-size: 100px;
+  color: #424242;
+  padding-top: 45px;
+  border-top: 2px solid #343434;
+  margin-bottom: 20px;
+}
+.about-content1 h4 {
+  color: #fff;
+  text-align: left;
+  font-size: 25px;
+}
+.about-content1 p {
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+}
+
+/* ---------------------------------------------headerImage-------------------------------------------- */
+
+.Homedata1 {
+  color: white;
+  width: 100%;
+  height: 50vh;
+}
+.header-data {
+  padding-bottom: 1px;
+  display: inline-block;
+  border-bottom: 4px solid white;
+  font-size: 50px;
+  margin: 60px 30px;
+}
+
+@media screen and (max-width: 720px) {
+  .bg-image {
+    height: 60vh !important;
+  }
+  .about-img2 {
+    height: 60vh;
+  }
+  .about-img1 {
+    height: 65vh;
+  }
+  .image-home {
+    height: 55vh;
+  }
+  .image-class {
+    width: 100%;
+    height: 50vh;
+  }
+  .design-heading {
+    padding-top: 16px;
+    padding-bottom: 0px;
+    font-size: 40px;
+  }
+  .design-heading:hover {
+    padding-bottom: 16px;
+  }
+  .about-text {
+    font-size: 50px;
+  }
+  .person-class {
+    height: 30vh;
+  }
+  .about-text1 {
+    text-align: left;
+    margin: 40px 65px 30px 65px !important;
+    font-size: 30px !important;
+  }
+  .homepage-head {
+    font-size: 30px;
+  }
+  .service_quote{
+    margin: 0px 130px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .person-class {
+    width: 50%;
+    height: 45vh;
+  }
+  .abtgallery {
+    width: 60%;
+    margin: 15px;
+  }
+  .service_quote{
+    margin: 0px 70px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .person-class {
+    width: 230px;
+    height: 230px;
+  }}
+@media screen and (max-width: 900px) {
+  .abtgallery {
+    width: 80%;
+  }
+}
